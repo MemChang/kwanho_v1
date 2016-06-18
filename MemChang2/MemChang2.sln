@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{4EF9B3B8-EC0F-609C-AF75-307F03814B7E}") = "MemChang2", "Assembly-CSharp-firstpass.csproj", "{9844B415-DCBF-A91C-4AD0-6CA4DBBC13CF}"
+EndProject
 Project("{4EF9B3B8-EC0F-609C-AF75-307F03814B7E}") = "MemChang2", "Assembly-CSharp.csproj", "{F1A60AF2-7FFF-7C12-C1CD-D4083609FE81}"
+EndProject
+Project("{4EF9B3B8-EC0F-609C-AF75-307F03814B7E}") = "MemChang2", "Assembly-CSharp-Editor.csproj", "{35E97845-8544-02E4-EAFA-682CF2824332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9844B415-DCBF-A91C-4AD0-6CA4DBBC13CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9844B415-DCBF-A91C-4AD0-6CA4DBBC13CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9844B415-DCBF-A91C-4AD0-6CA4DBBC13CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9844B415-DCBF-A91C-4AD0-6CA4DBBC13CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1A60AF2-7FFF-7C12-C1CD-D4083609FE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1A60AF2-7FFF-7C12-C1CD-D4083609FE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1A60AF2-7FFF-7C12-C1CD-D4083609FE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1A60AF2-7FFF-7C12-C1CD-D4083609FE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E97845-8544-02E4-EAFA-682CF2824332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E97845-8544-02E4-EAFA-682CF2824332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E97845-8544-02E4-EAFA-682CF2824332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E97845-8544-02E4-EAFA-682CF2824332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

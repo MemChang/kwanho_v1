@@ -60,7 +60,7 @@ public class CubeCreate : MonoBehaviour {
         MyLocker.locker += 6;
         for (int i = 0; i < 6; i++)
         {
-            StartCoroutine(MoveDown(cubeList.ElementAt(i).transform, 1f, 5f));
+            StartCoroutine(MoveDown(cubeList.ElementAt(i).transform, 1f, 15f));
         }
     }
 
